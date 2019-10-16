@@ -1,0 +1,37 @@
+{
+  "name": "tellajoke",
+  "version": "1.0.1",
+  "description": "A command-line utility for telling a joke.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajitesh-Tiwari/tellajoke.git"
+  },
+  "keywords": [
+    "node",
+    "commander",
+    "cmd",
+    "linux",
+    "shell",
+    "bash"
+  ],
+  "author": "Ajitesh Tiwari & Manish Chaurasiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajitesh-Tiwari/tellajoke/issues"
+  },
+  "homepage": "https://github.com/Ajitesh-Tiwari/tellajoke#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.19.0",
+    "ora": "^3.0.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "tellajoke": "./index.js"
+  }
+}
