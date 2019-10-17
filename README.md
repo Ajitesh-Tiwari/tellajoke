@@ -1,4 +1,4 @@
-# exxt
+# tellajoke
 A command-line utility for telling a joke.
 
 ### Installation
